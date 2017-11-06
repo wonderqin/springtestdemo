@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hantele.dao.StudentMapper">
+  <resultMap id="BaseResultMap" type="com.hantele.domain.Student">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Sid" jdbcType="INTEGER" property="sid" />
+    <result column="Sname" jdbcType="VARCHAR" property="sname" />
+    <result column="Ssex" jdbcType="CHAR" property="ssex" />
+    <result column="Sscore" jdbcType="DOUBLE" property="sscore" />
+    <result column="Cid" jdbcType="INTEGER" property="cid" />
+  </resultMap>
+</mapper>
